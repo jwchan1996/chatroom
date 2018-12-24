@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 1.6;
+    background: url("../images/bg4.jpg") no-repeat;
+    background-color: #000;
+    height: 637px;
+    font-family: Helvetica Neue, Helvetica, Hiragino Sans GB, Microsoft YaHei, sans-serif;
+}
+
+#logo {
+    position: absolute;
+}
+
+#logo h2 {
+    font-family: 'Handlee', cursive;
+    color: #E8D6AF;
+    font-weight: normal;
+    font-size: 2em;
+    margin: 5px 0;
+}
+
+#logo h2:hover{
+    cursor: pointer;
+}
+
+.main-box {
+    display: block;
+    height: 637px;
+    width: 890px;
+    margin: 0 auto;
+    padding-top: 0;
+}
+
+.left-box {;
+    width: 273px;
+    height: 100%;
+    float: left;
+    background: rgba(44, 48, 54, 0.6);
+}
+
+.left-box .people {
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+}
+
+#people-list {
+    padding-top: 10px;
+    padding-left: 110px;
+    z-index: 5;
+    color: white;
+    height: 50px;
+    width: 100px;
+}
+
+#people-list ul li {
+    list-style: none;
+    height: 20px;
+    width: 80px;
+    margin-top: 10px;
+}
+
+.right-box {
+    position: relative;
+    float: right;
+    background-color: rgba(238, 238, 238, 0.4);
+    width: 617px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.top-bar {
+    height: 51px;
+    width: 636px;
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    line-height: 30px;
+}
+
+.top-bar p {
+    margin-left: 250px;
+    float: left;
+    font-size: 16px;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.top-bar img {
+    margin-top: 20px;
+    margin-right: 50px;
+    float: right;
+    height: 20px;
+    width: 20px;
+}
+
+#chat-window {
+    padding-left: 20px;
+    height: 400px;
+    width: 617px;
+    overflow: auto;
+    border-top: 1px solid rgba(22, 41, 128, 0.11);
+    border-bottom: 1px solid rgba(22, 41, 128, 0.11);
+    color: rgba(0, 0, 0, 0.86);
+}
+
+.prompt-message {
+    line-height: 16px;
+    font-size: 16px;
+    text-align: center;
+    height: 40px;
+    width: 617px;
+    top: 458px;
+}
+
+#emoji {
+    float: left;
+    margin: 10px auto auto 20px;
+}
+
+#emoji img {
+    height: 16px;
+    width: 16px;
+}
+
+#file {
+    float: left;
+    margin: 10px auto auto 20px;
+}
+
+#file img {
+    height: 16px;
+    width: 16px;
+}
+
+.prompt-message p {
+    float: left;
+    padding-top: 12px;
+    height: 16px;
+    line-height: 16px;
+    font-size: 16px;
+}
+
+.input-window {
+    height: 84px;
+    width: 617px;
+    top: 498px;
+}
+
+#text-input {
+    height: 84px;
+    width: 617px;
+    background-color: rgba(238, 238, 238, 0.4);
+}
+
+.input-bar {
+    margin-top: 15px;
+    height: 30px;
+    width: 617px;
+    top: 582px;
+}
+
+.input-bar p {
+    float: right;
+    font-size: 14px;
+    color: rgba(70, 52, 28, 0.51);
+    margin-top: 4px;
+    margin-right: 20px;
+}
+
+#send {
+    border: 1px solid rgba(22, 41, 128, 0.11);
+    border-radius: 10%;
+    margin-right: 20px;
+    float: right;
+    height: 30px;
+    width: 85px;
+    background-color: rgba(22, 41, 128, 0.05);
+    font-weight: 100;
+    color: rgba(30, 30, 30, 0.44);
+}
+
+#send:hover {
+    color: #fff;
+    background-color: green;
+}
+
+#reset {
+    border: 1px solid rgba(22, 41, 128, 0.11);
+    border-radius: 10%;
+    margin-right: 20px;
+    float: right;
+    height: 30px;
+    width: 80px;
+    background-color: rgba(22, 41, 128, 0.05);
+    font-weight: 100;
+    color: #888;
+}
+
+#reset:hover {
+    color: #fff;
+    background-color: red;
+}

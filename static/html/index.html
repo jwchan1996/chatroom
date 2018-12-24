@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chatroom</title>
+
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/demo.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/component.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/chat.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+
+<div id="logo"><a><h2>ChatRoom</h2></a></div>
+
+<div class="container demo-1">
+    <div class="content">
+        <div id="large-header" class="large-header">
+            <canvas id="demo-canvas"></canvas>
+            <h1 class="main-title"><span class="thin"></span></h1>
+        </div>
+        <nav class="codrops-demos">
+            <a id="a1" class="current-demo" href="#">Demo 1</a>
+            <a id="a2" href="#">Demo 2</a>
+            <a id="a3" href="#">Demo 3</a>
+            <a id="a4" href="#">Demo 4</a>
+        </nav>
+    </div>
+</div>
+
+<div class="main-box">
+
+    <div class="left-box">
+        <div class="people"><p>在线人员</p></div>
+        <div id="people-list"></div>
+
+    </div>
+
+    <div class="right-box">
+        <div class="top-bar">
+            <p>欢迎来到聊天室！</p>
+            <img src="../images/people.png">
+        </div>
+        <div id="chat-window">
+
+        </div>
+        <div class="prompt-message">
+            <div id="emoji"><img src="../images/Emoji.png"></div>
+            <div id="file"><img src="../images/file.png"></div>
+        </div>
+        <div class="input-window">
+
+            <label for="text-input"></label>
+            <textarea id="text-input" rows="5" cols="50" maxlength="200"></textarea>
+
+        </div>
+        <div class="input-bar">
+            <input id="send" type="button" value="发送(Enter)">
+            <input id="reset" type="button" value="清空记录">
+            <p>Ctrl 可换行</p>
+        </div>
+    </div>
+</div>
+
+<script src="../scripts/jquery-3.2.0.js"></script>
+<script src="../scripts/html5.js"></script>
+<script src="../scripts/TweenLite.min.js"></script>
+<script src="../scripts/EasePack.min.js"></script>
+<script src="../scripts/rAF.js"></script>
+<script src="../scripts/demo-1.js"></script>
+<script src="../scripts/chat.js"></script>
+
+</body>
+</html>
